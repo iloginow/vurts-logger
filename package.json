@@ -1,0 +1,30 @@
+{
+  "name": "vurts-logger",
+  "version": "0.0.1",
+  "description": "Simple and reusable Node.js logger setup",
+  "main": "index.js",
+  "type": "module",
+  "repository": "git@github.com:iloginow/vurts-auth.git",
+  "author": "Ilia Loginov <i.loginow.by@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "logger",
+    "setup",
+    "reusable",
+    "node.js"
+  ],
+  "engines": {
+    "node": ">=18.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "^2.25.2"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "loglevel": "^1.8.0",
+    "loglevel-filesave": "^1.0.0",
+    "loglevel-plugin-prefix": "^0.8.4"
+  }
+}

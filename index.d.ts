@@ -22,6 +22,16 @@ export interface Logger {
   log(...msg: string[]): void;
 
   /**
+   * Output debug message to console including appropriate icons
+   *
+   * @param method an http method (GET, POST, PUt, DELETE etc...)
+   * @param url hrrp request url
+   * @param body request body if present
+   */
+  logHttpRequest(method: string, url: string, body: string): void;
+
+
+  /**
    * Output info message to console including appropriate icons
    *
    * @param msg any data to log to the console

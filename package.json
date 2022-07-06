@@ -1,6 +1,6 @@
 {
   "name": "vurts-logger",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Simple and reusable Node.js logger setup",
   "main": "index.js",
   "type": "module",
